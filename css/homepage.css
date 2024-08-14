@@ -5,10 +5,10 @@ body {
 
 header {
   background-color: #fff;
-  position: absolute;
   max-width: 1270px;
+  position: absolute;
+  top: 50px;
   height: 102px;
-  top: 40px;
   padding: 15px 25px;
   margin-left: 30px;
   margin-right: 30px;
@@ -45,8 +45,9 @@ header {
 }
 
 .intro-container {
-  background-image: url(../images/background1.jpg);
+  background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(86, 145, 60, 0.35057773109243695) 0%), url(../images/background1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: initial;
   height: 872px;
 }
@@ -70,10 +71,15 @@ header {
   font-size: 1rem;
 }
 
+.intro-container-slogan {
+  margin-bottom: 30px;
+}
+
 .intro-container-slogan p {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
+  width: 60%;
 }
 
 .intro-container-slogan p span {
@@ -83,6 +89,7 @@ header {
 .intro-container-description p {
   color: #fff;
   font-size: 1.2rem;
+  width: 55%;
 }
 
 .intro-container-links {
@@ -98,29 +105,29 @@ header {
   text-decoration: none;
   color: #163331;
   font-weight: 500;
-  padding: 10px;
+  padding: 10px 30px;
   border: 2px solid #89EA5F;
   border-radius: 30px;
   background-color: #89EA5F;
+  transition: 0.20s ease-in-out;
 }
 
 .intro-container-links .services-link a:hover {
   color: #89EA5F;
   background-color: #163331;
-  transition: 0.20s ease-in-out;
 }
 
 .intro-container-links .contact-link a {
   text-decoration: none;
   color: #89EA5F;
   font-weight: 500;
-  padding: 10px;
+  padding: 10px 30px;
   border: 2px solid #89EA5F;
   border-radius: 30px;
   background-color: transparent;
+  transition: 0.20s ease-in-out;
 }
 
 .intro-container-links .contact-link a:hover {
   background-color: #163331;
-  transition: 0.25s ease-in-out;
 }
