@@ -5,7 +5,7 @@ body {
 
 header {
   background-color: #fff;
-  position: relative;
+  position: absolute;
   max-width: 1270px;
   height: 102px;
   top: 40px;
@@ -38,4 +38,89 @@ header {
   padding: 10px 30px;
   font-weight: 500;
   position: relative;
+}
+
+.navbar-nav .highlighted-link a:hover {
+  background-color: #163331;
+}
+
+.intro-container {
+  background-image: url(../images/background1.jpg);
+  background-size: cover;
+  background-position: initial;
+  height: 872px;
+}
+
+.intro-container .intro-container-content {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+.intro-container-title {
+  display: flex;
+}
+
+.intro-container-title i {
+  margin-right: 10px;
+}
+
+.intro-container-title h1 {
+  color: #89EA5F;
+  font-size: 1rem;
+}
+
+.intro-container-slogan p {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.intro-container-slogan p span {
+  color: #89EA5F;
+}
+
+.intro-container-description p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.intro-container-links {
+  display: flex;
+  margin-top: 60px;
+}
+
+.intro-container-links .services-link {
+  margin-right: 30px;
+}
+
+.intro-container-links .services-link a {
+  text-decoration: none;
+  color: #163331;
+  font-weight: 500;
+  padding: 10px;
+  border: 2px solid #89EA5F;
+  border-radius: 30px;
+  background-color: #89EA5F;
+}
+
+.intro-container-links .services-link a:hover {
+  color: #89EA5F;
+  background-color: #163331;
+  transition: 0.20s ease-in-out;
+}
+
+.intro-container-links .contact-link a {
+  text-decoration: none;
+  color: #89EA5F;
+  font-weight: 500;
+  padding: 10px;
+  border: 2px solid #89EA5F;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.intro-container-links .contact-link a:hover {
+  background-color: #163331;
+  transition: 0.25s ease-in-out;
 }
