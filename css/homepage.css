@@ -55,7 +55,7 @@ header {
 .intro-container .intro-container-content {
   position: absolute;
   top: 300px;
-  left: 100px;
+  left: 300px;
 }
 
 .intro-container-title {
@@ -79,7 +79,7 @@ header {
   color: #fff;
   font-size: 3.5rem;
   font-weight: 700;
-  width: 60%;
+  width: 50%;
 }
 
 .intro-container-slogan p span {
@@ -89,7 +89,7 @@ header {
 .intro-container-description p {
   color: #fff;
   font-size: 1.2rem;
-  width: 55%;
+  width: 45%;
 }
 
 .intro-container-links {
