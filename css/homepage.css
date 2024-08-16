@@ -256,3 +256,55 @@ header {
   font-size: 2.9rem;
   font-weight: 700;
 }
+
+.our-services-boxes p {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.our-services-boxes-1 {
+  background: url(../images/servicesimg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+.our-services-boxes-1-text {
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  top: 280px;
+}
+
+.our-services-boxes-1-text p:nth-child(1) {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 650;
+}
+
+.our-services-boxes-2 {
+  background: url(../images/servicesimg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+.our-services-boxes-2-text {
+  background-color: #fff;
+}
+
+.our-services-boxes-3 {
+  background: url(../images/servicesimg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+.our-services-boxes-3-text {
+  background-color: #fff;
+}
