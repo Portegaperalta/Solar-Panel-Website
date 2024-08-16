@@ -135,6 +135,7 @@ header {
 .about-us {
   background-color: #fff;
   padding-top: 101px;
+  padding-bottom: 50px;
 }
 
 .about-us-images {
@@ -222,4 +223,36 @@ header {
 .about-us-link:hover {
   background-color: #163331;
   color: #89EA5F;
+}
+
+.our-services {
+  background-color: #EFF1ED;
+  padding: 102px 0 156px;
+}
+
+.our-services-title {
+  display: flex;
+  justify-content: center;
+}
+
+.our-services-title i {
+  margin-right: 10px;
+}
+
+.our-services-title h3 {
+  color: #89EA5F;
+  font-size: 0.90rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  margin-bottom: 0px;
+}
+
+.our-services-slogan {
+  display: flex;
+  justify-content: center;
+}
+
+.our-services-slogan p {
+  font-size: 2.9rem;
+  font-weight: 700;
 }
