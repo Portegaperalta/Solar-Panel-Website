@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rajdhani", sans-serif;
   overflow-x: hidden;
 }
 
@@ -21,6 +21,7 @@ header {
 }
 
 .navbar-nav li a {
+  font-family: roboto;
   color: #000;
   font-weight: 400;
 }
@@ -64,7 +65,9 @@ header {
 
 .intro-container-title h1 {
   color: #89EA5F;
-  font-size: 0.90rem;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  font-weight: 600;
 }
 
 .intro-container-slogan {
@@ -73,7 +76,7 @@ header {
 
 .intro-container-slogan p {
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
@@ -83,6 +86,7 @@ header {
 
 .intro-container-description p {
   color: #fff;
+  font-family: "Rubik", sans-serif;
   font-size: 1.2rem;
 }
 
@@ -97,9 +101,10 @@ header {
 
 .intro-container-links .services-link a {
   text-decoration: none;
-  color: #163331;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
-  padding: 10px 30px;
+  color: #163331;
+  padding: 12px 30px;
   border: 2px solid #89EA5F;
   border-radius: 30px;
   background-color: #89EA5F;
@@ -113,9 +118,10 @@ header {
 
 .intro-container-links .contact-link a {
   text-decoration: none;
-  color: #89EA5F;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
-  padding: 10px 30px;
+  color: #89EA5F;
+  padding: 12px 30px;
   border: 2px solid #89EA5F;
   border-radius: 30px;
   background-color: transparent;
@@ -124,4 +130,96 @@ header {
 
 .intro-container-links .contact-link a:hover {
   background-color: #163331;
+}
+
+.about-us {
+  background-color: #fff;
+  padding-top: 101px;
+}
+
+.about-us-images {
+  background: url(../images/aboutus-background.svg) top 5px right 1%;
+  background-repeat: no-repeat;
+  background-size: 18% auto;
+  margin-right: 20px;
+  padding-bottom: 100px;
+}
+
+.about-us-img-one img {
+  width: 90%;
+  border-radius: 30px;
+}
+
+.about-img-two img {
+  width: 50%;
+  position: relative;
+  left: 320px;
+  bottom: 100px;
+  border: 5px solid #fff;
+  border-radius: 30px;
+}
+
+.about-us-title {
+  display: flex;
+}
+
+.about-us-title i {
+  margin-right: 10px;
+}
+
+.about-us-title h2 {
+  color: #89EA5F;
+  font-size: 0.90rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+.about-us-slogan p {
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+
+.about-us-description p {
+  color: #888888;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.about-us-perks ul {
+  padding: 0;
+  margin: 0 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.about-us-perks ul li {
+  padding: 5px 30px;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about-us-perks ul li i {
+  margin-right: 10px;
+}
+
+.about-us-link {
+  color: #163331;
+  background-color: #89EA5F;
+  padding: 12px 30px;
+  border: 2px solid #89EA5F;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  border: 2px solid #89EA5F;
+  transition: 0.20s ease-in-out;
+}
+
+.about-us-link:hover {
+  background-color: #163331;
+  color: #89EA5F;
 }
