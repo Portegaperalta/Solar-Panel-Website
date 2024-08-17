@@ -499,6 +499,7 @@ header {
 
 .progress-section {
   padding-top: 50px;
+  padding-bottom: 102px;
 }
 
 .progress-title {
@@ -554,6 +555,129 @@ header {
 .marketing-progress p {
   font-size: 1.3rem;
   font-weight: 700;
+}
+
+.why-choose-us {
+  background-color: #EFF1ED;
+  padding-top: 106px;
+  padding-bottom: 100px;
+}
+
+.why-choose-us-title {
+  display: flex;
+  justify-content: center;
+}
+
+.why-choose-us-title i {
+  margin-right: 10px;
+}
+
+.why-choose-us-title h4 {
+  color: #89EA5F;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  font-weight: 600;
+}
+
+.why-choose-us-slogan {
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.why-choose-us-slogan p {
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+
+.benefit-1 {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.benefit-1-icon i {
+  font-size: 2.2rem;
+}
+
+.benefit-1-text p:nth-child(1) {
+  color: #163331;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.benefit-1-text p:nth-child(2) {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #888888;
+}
+
+.benefit-2 {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.benefit-2-icon i {
+  font-size: 2.2rem;
+}
+
+.benefit-2-text p:nth-child(1) {
+  color: #163331;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.benefit-2-text p:nth-child(2) {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #888888;
+}
+
+.benefit-3 {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.benefit-3-icon i {
+  font-size: 2.2rem;
+}
+
+.benefit-3-text p:nth-child(1) {
+  color: #163331;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.benefit-3-text p:nth-child(2) {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #888888;
+}
+
+.benefit-4 {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.benefit-4-icon i {
+  font-size: 2.2rem;
+}
+
+.benefit-4-text p:nth-child(1) {
+  color: #163331;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.benefit-4-text p:nth-child(2) {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #888888;
 }
 
 @media all and (max-width: 480px) {
