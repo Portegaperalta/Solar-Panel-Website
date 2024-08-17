@@ -368,3 +368,43 @@ header {
   font-weight: 400;
   font-family: "Rubik", sans-serif;
 }
+
+@media all and (max-width: 480px) {
+  .intro-container {
+    padding-bottom: 600px;
+  }
+
+  .about-us-images {
+    padding-bottom: 0px;
+  }
+
+  .about-img-two img {
+    width: 50%;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    border: 5px solid #fff;
+    border-radius: 30px;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .about-us-images {
+    padding-bottom: 0px;
+  }
+
+  .about-img-two img {
+    width: 50%;
+    position: relative;
+    left: 290px;
+    bottom: 100px;
+    border: 5px solid #fff;
+    border-radius: 30px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .about-us-images {
+    padding-bottom: 0px;
+  }
+}
