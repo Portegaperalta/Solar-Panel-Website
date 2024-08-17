@@ -257,6 +257,12 @@ header {
   font-weight: 700;
 }
 
+.our-services-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .our-services-boxes-1 {
   background: url(../images/servicesimg1.jpg);
   background-size: cover;
@@ -264,6 +270,8 @@ header {
   height: 520px;
   width: 450px;
   border-radius: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .our-services-boxes-1-text {
@@ -274,7 +282,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -301,6 +309,8 @@ header {
   height: 520px;
   width: 450px;
   border-radius: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .our-services-boxes-2-text {
@@ -311,7 +321,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -338,6 +348,7 @@ header {
   height: 520px;
   width: 450px;
   border-radius: 50px;
+  margin-bottom: 20px;
 }
 
 .our-services-boxes-3-text {
@@ -348,7 +359,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -386,6 +397,10 @@ header {
     border: 5px solid #fff;
     border-radius: 30px;
   }
+
+  .our-services-boxes {
+    flex-wrap: wrap;
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -401,10 +416,15 @@ header {
     border: 5px solid #fff;
     border-radius: 30px;
   }
+
+  .our-services-boxes {
+    flex-wrap: wrap;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
   .about-us-images {
     padding-bottom: 0px;
   }
+
 }
