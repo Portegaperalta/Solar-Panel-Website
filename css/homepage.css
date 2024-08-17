@@ -432,6 +432,36 @@ header {
   font-weight: 700;
 }
 
+.step-one-content p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.step-one-content p:nth-child(2) {
+  font-weight: 600;
+  color: #888888;
+}
+
+.step-two-content p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.step-two-content p:nth-child(2) {
+  font-weight: 600;
+  color: #888888;
+}
+
+.step-three-content p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.step-three-content p:nth-child(2) {
+  font-weight: 600;
+  color: #888888;
+}
+
 @media all and (max-width: 480px) {
   .intro-container {
     padding-bottom: 600px;
