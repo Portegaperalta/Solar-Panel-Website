@@ -250,6 +250,7 @@ header {
 .our-services-slogan {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .our-services-slogan p {
@@ -272,6 +273,7 @@ header {
   border-radius: 50px;
   margin-right: 20px;
   margin-bottom: 20px;
+  transition: 0.25s ease-in-out;
 }
 
 .our-services-boxes-1-text {
@@ -285,6 +287,11 @@ header {
   padding-bottom: 1px;
   margin-left: 20px;
   margin-right: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+.our-services-boxes-1:hover .our-services-boxes-1-text {
+  top: 330px;
 }
 
 .our-services-boxes-1-text p:nth-child(1) {
@@ -305,12 +312,14 @@ header {
 .our-services-boxes-2 {
   background: url(../images/servicesimg2.jpg);
   background-size: cover;
+  background-position: initial;
   background-repeat: no-repeat;
   height: 520px;
   width: 450px;
   border-radius: 50px;
   margin-right: 20px;
   margin-bottom: 20px;
+  transition: 0.25s ease-in-out;
 }
 
 .our-services-boxes-2-text {
@@ -324,6 +333,11 @@ header {
   padding-bottom: 1px;
   margin-left: 20px;
   margin-right: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+.our-services-boxes-2:hover .our-services-boxes-2-text {
+  top: 330px;
 }
 
 .our-services-boxes-2-text p:nth-child(1) {
@@ -345,10 +359,12 @@ header {
   background: url(../images/servicesimg3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: -170px;
   height: 520px;
   width: 450px;
   border-radius: 50px;
   margin-bottom: 20px;
+  transition: 0.25s ease-in-out;
 }
 
 .our-services-boxes-3-text {
@@ -362,6 +378,11 @@ header {
   padding-bottom: 1px;
   margin-left: 20px;
   margin-right: 20px;
+  transition: 0.25s ease-in-out;
+}
+
+.our-services-boxes-3:hover .our-services-boxes-3-text {
+  top: 330px;
 }
 
 .our-services-boxes-3-text p:nth-child(1) {
@@ -378,6 +399,37 @@ header {
   font-size: 1.2rem;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
+}
+
+.our-process {
+  padding-top: 105px;
+}
+
+.our-process-title {
+  font-family: font-family: "Rajdhani", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.our-process-title i {
+  margin-right: 10px;
+}
+
+.our-process-title h3 {
+  color: #89EA5F;
+  font-size: 0.90rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+.our-process-slogan {
+  display: flex;
+  justify-content: center;
+}
+
+.our-process-slogan p {
+  font-size: 2.9rem;
+  font-weight: 700;
 }
 
 @media all and (max-width: 480px) {
