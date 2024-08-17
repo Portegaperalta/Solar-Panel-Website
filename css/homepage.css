@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0px;
   font-family: "Rajdhani", sans-serif;
   overflow-x: hidden;
 }
@@ -255,10 +255,6 @@ header {
 .our-services-slogan p {
   font-size: 2.9rem;
   font-weight: 700;
-}
-
-.our-services-boxes p {
-  font-family: "Rajdhani", sans-serif;
 }
 
 .our-services-boxes-1 {
