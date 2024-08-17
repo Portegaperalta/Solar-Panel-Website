@@ -403,6 +403,7 @@ header {
 
 .our-process {
   padding-top: 105px;
+  padding-bottom: 105px;
 }
 
 .our-process-title {
@@ -425,11 +426,30 @@ header {
 .our-process-slogan {
   display: flex;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 .our-process-slogan p {
   font-size: 2.9rem;
   font-weight: 700;
+}
+
+.step-number {
+  background-color: #89EA5F;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  position: absolute;
+}
+
+.step-one-icon img {
+  background-color: #89EA5F;
+  padding: 35px 35px;
+  border-radius: 30px;
 }
 
 .step-one-content p:nth-child(1) {
@@ -438,8 +458,15 @@ header {
 }
 
 .step-one-content p:nth-child(2) {
-  font-weight: 600;
+  font-weight: 510;
   color: #888888;
+  font-size: 1.1rem;
+}
+
+.step-two-icon img {
+  background-color: #89EA5F;
+  padding: 35px 35px;
+  border-radius: 30px;
 }
 
 .step-two-content p:nth-child(1) {
@@ -448,8 +475,15 @@ header {
 }
 
 .step-two-content p:nth-child(2) {
-  font-weight: 600;
+  font-weight: 510;
   color: #888888;
+  font-size: 1.1rem;
+}
+
+.step-three-icon img {
+  background-color: #89EA5F;
+  padding: 35px 35px;
+  border-radius: 30px;
 }
 
 .step-three-content p:nth-child(1) {
@@ -458,8 +492,17 @@ header {
 }
 
 .step-three-content p:nth-child(2) {
-  font-weight: 600;
+  font-weight: 510;
   color: #888888;
+  font-size: 1.1rem;
+}
+
+.progress-section {
+  padding-top: 50px;
+}
+
+.progress-title {
+  display: flex;
 }
 
 @media all and (max-width: 480px) {
