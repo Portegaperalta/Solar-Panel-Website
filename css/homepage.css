@@ -594,7 +594,7 @@ header {
   background-color: #fff;
   padding: 25px;
   border-radius: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .benefit-1-icon i {
@@ -617,7 +617,7 @@ header {
   background-color: #fff;
   padding: 25px;
   border-radius: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .benefit-2-icon i {
@@ -640,6 +640,7 @@ header {
   background-color: #fff;
   padding: 25px;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 .benefit-3-icon i {
@@ -662,6 +663,7 @@ header {
   background-color: #fff;
   padding: 25px;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 .benefit-4-icon i {
@@ -678,6 +680,35 @@ header {
   font-size: 1.1rem;
   font-weight: 600;
   color: #888888;
+}
+
+.stats-counter {
+  background-color: #163300;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.counter-item {
+  display: flex;
+}
+
+.counter-icon {
+  margin-right: 15px;
+}
+
+.counter-icon i {
+  font-size: 3rem;
+}
+
+.counter-content h4 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.counter-content p {
+  color: #89EA5F;
+  font-weight: 600;
 }
 
 @media all and (max-width: 480px) {
