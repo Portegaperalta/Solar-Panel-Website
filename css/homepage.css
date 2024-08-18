@@ -889,6 +889,10 @@ header {
   margin-left: 15px;
 }
 
+footer {
+  background-color: ;
+}
+
 @media all and (max-width: 480px) {
   .intro-container {
     padding-bottom: 600px;
