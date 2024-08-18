@@ -711,6 +711,184 @@ header {
   font-weight: 600;
 }
 
+.recent-articles {
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.recent-articles-title {
+  display: flex;
+  justify-content: center;
+}
+
+.recent-articles-title i {
+  margin-right: 10px;
+}
+
+.recent-articles-title h5 {
+  color: #89EA5F;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  font-weight: 600;
+}
+
+.recent-articles-slogan {
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.recent-articles-slogan p {
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+
+.article-box-1 {
+  background: url(../images/blogimgone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 447px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+}
+
+.article-box-1-content {
+  background-color: #fff;
+  position: relative;
+  width: 400px;
+  top: 290px;
+  left: 8px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.article-box-1-content a {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+  transition: 0.30s ease-in-out;
+}
+
+.article-box-1-content a:hover {
+  color: #89EA5F;
+}
+
+.article-box-1-info {
+  display: flex;
+}
+
+.article-box-1-info p {
+  color: #888888;
+  font-weight: 600;
+}
+
+.article-box-1-info p i {
+  margin-right: 10px;
+}
+
+.article-box-1-info p:nth-child(2) {
+  margin-left: 15px;
+}
+
+.article-box-2 {
+  background: url(../images/blogimgtwo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 447px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+}
+
+.article-box-2-content {
+  background-color: #fff;
+  position: relative;
+  width: 400px;
+  top: 290px;
+  left: 8px;
+  border-radius: 20px;
+  padding: 10px;
+  padding-bottom: 40px;
+}
+
+.article-box-2-content a {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+  transition: 0.30s ease-in-out;
+}
+
+.article-box-2-content a:hover {
+  color: #89EA5F;
+}
+
+.article-box-2-info {
+  display: flex;
+}
+
+.article-box-2-info p {
+  color: #888888;
+  font-weight: 600;
+}
+
+.article-box-2-info p i {
+  margin-right: 10px;
+}
+
+.article-box-2-info p:nth-child(2) {
+  margin-left: 15px;
+}
+
+.article-box-3 {
+  background: url(../images/blogimgthree.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 447px;
+  border-radius: 30px;
+}
+
+.article-box-3-content {
+  background-color: #fff;
+  position: relative;
+  width: 400px;
+  top: 290px;
+  left: 8px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.article-box-3-content a {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-decoration: none;
+  transition: 0.30s ease-in-out;
+}
+
+.article-box-3-content a:hover {
+  color: #89EA5F;
+}
+
+.article-box-3-info {
+  display: flex;
+}
+
+.article-box-3-info p {
+  color: #888888;
+  font-weight: 600;
+}
+
+.article-box-3-info p i {
+  margin-right: 10px;
+}
+
+.article-box-3-info p:nth-child(2) {
+  margin-left: 15px;
+}
+
 @media all and (max-width: 480px) {
   .intro-container {
     padding-bottom: 600px;
