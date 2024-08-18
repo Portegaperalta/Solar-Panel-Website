@@ -890,10 +890,165 @@ header {
 }
 
 footer {
-  background-color: ;
+  background-color: #163300;
 }
 
-@media all and (max-width: 480px) {
+.footer-support {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-bottom: 80px;
+}
+
+.email-support {
+  display: flex;
+}
+
+.email-support-icon {
+  margin-right: 25px;
+}
+
+.email-support-icon i {
+  font-size: 3rem;
+}
+
+.email-support-content {
+  color: #fff;
+}
+
+.email-support-content h5 {
+  font-weight: 650;
+}
+
+.email-support-content p {
+  font-weight: 600;
+}
+
+.phone-support {
+  display: flex;
+}
+
+.phone-support-icon {
+  margin-right: 25px;
+}
+
+.phone-support-icon i {
+  font-size: 3rem;
+}
+
+.phone-support-content {
+  color: #fff;
+}
+
+.phone-support-content h5 {
+  font-weight: 650;
+}
+
+.phone-support-content p {
+  font-weight: 600;
+}
+
+.location-support {
+  display: flex;
+}
+
+.location-support-icon {
+  margin-right: 25px;
+}
+
+.location-support-icon i {
+  font-size: 3rem;
+}
+
+.location-support-content {
+  color: #fff;
+}
+
+.location-support-content h5 {
+  font-weight: 650;
+}
+
+.location-support-content p {
+  font-weight: 600;
+}
+
+.footer-content-text {
+  color: #fff;
+  width: 350px;
+}
+
+.footer-content-socials ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-content-socials ul li {
+  margin-left: 20px;
+}
+
+.quick-links p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.quick-links ul li::marker {
+  color: #89EA5F;
+}
+
+.quick-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.quick-links a:hover {
+  color: #89EA5F;
+}
+
+.services-links p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.services-links ul li::marker {
+  color: #89EA5F;
+}
+
+.services-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.services-links a:hover {
+  color: #89EA5F;
+}
+
+.useful-links p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.useful-links ul li::marker {
+  color: #89EA5F;
+}
+
+.useful-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.useful-links a:hover {
+  color: #89EA5F;
+}
+
+.footer-content @media all and (max-width: 480px) {
   .intro-container {
     padding-bottom: 600px;
   }
